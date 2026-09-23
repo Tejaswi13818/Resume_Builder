@@ -1,0 +1,3 @@
+# Python dependencies for PDF processing
+# PyMuPDF - Fast PDF text extraction (NO model downloads!)
+pymupdf>=1.23.0

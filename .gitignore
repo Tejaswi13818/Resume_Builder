@@ -1,0 +1,108 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.key
+*.pem
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Cache directories
+.cache/
+.parcel-cache/
+.npm/
+.yarn/
+.pnp/
+.pnp.js
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Runtime and temp files
+*.log
+*.pid
+*.seed
+*.pid.lock
+.tmp/
+temp/
+
+# Upload directories (contain user-generated content)
+uploads/
+backend/uploads/
+frontend/uploads/
+
+# Compiled LaTeX files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.bcf
+*.run.xml
+
+# PDF outputs (except sample/template PDFs if needed)
+*.pdf
+
+# Test files and temporary content
+test_*.tex
+test_*.pdf
+main.tex
+curl
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Python cache (if any)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+.Python
+
+# Test and documentation files (cleanup)
+test-*.js
+test_*.py
+*_CORRECTIONS.md
+INTEGRATION_*.md
+QUICKSTART.md
+ARCHITECTURE.txt
+
+# Puppeteer cache
+.cache/puppeteer/                      
